@@ -1,0 +1,23 @@
+{
+  "name": "chat_custom",
+  "version": "1.0.0",
+  "description": "Customizing the socket io chatroom",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "keywords": [
+    "socket",
+    "io",
+    "custom",
+    "chatroom",
+    "chat",
+    "room"
+  ],
+  "author": "Christopher Duffy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8"
+  }
+}

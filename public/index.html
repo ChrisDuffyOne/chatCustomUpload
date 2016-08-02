@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Chatroom</title>
+		<meta charset="utf-8">
+
+		<style>
+			body{
+				background-color: gray;
+			}
+			.chatContain {
+				margin-left: 40px;
+			}
+			.mesg{
+				background-color: white;
+				margin: 5px;
+				padding: 10px;
+				max-width: 300px;
+			}
+			.newGuy{
+				background-color: green;
+				color: white;
+				margin: 5px;
+				padding: 10px;
+				max-width: 300px;
+			}
+			.oldGuy{
+				background-color: red;
+				color: white;
+				margin: 5px;
+				padding: 10px;
+				max-width: 300px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="chatContain">
+			<input type="text">
+			<div id="messages"></div>
+		</div>
+		<div>
+			<h5 id="userCount"></h5>
+		</div>
+
+		<!-- JS -->
+		<script src="//code.jquery.com/jquery-2.1.0.js"></script>
+		<script src="main.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+	</body>
+</html>
